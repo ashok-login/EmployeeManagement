@@ -1,0 +1,17 @@
+While creating new project:
+01. Create DAL first
+02. Create BLL next
+03. Create required Models
+04. Create UI Layer
+
+
+
+
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NLayerPracticeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+
+
+Reference from DAL to BLL
+REference from BLL to UI
+
+Reference from DTOs to DAL, BLL, UI

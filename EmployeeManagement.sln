@@ -3,16 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.DAL", "EmployeeManagement.DAL\EmployeeManagement.DAL.csproj", "{42E7564F-6B91-4A08-AF6E-41292D7E7907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.DAL", "EmployeeManagement.DAL\EmployeeManagement.DAL.csproj", "{42E7564F-6B91-4A08-AF6E-41292D7E7907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.BLL", "EmployeeManagement.BLL\EmployeeManagement.BLL.csproj", "{E97571E4-16BD-4B41-BDEE-DDDCF57EAC3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.BLL", "EmployeeManagement.BLL\EmployeeManagement.BLL.csproj", "{E97571E4-16BD-4B41-BDEE-DDDCF57EAC3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.DTOs", "EmployeeManagement.DTOs\EmployeeManagement.DTOs.csproj", "{A18E5D0B-C2FB-423D-95B4-B1F9569FFDE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.DTOs", "EmployeeManagement.DTOs\EmployeeManagement.DTOs.csproj", "{A18E5D0B-C2FB-423D-95B4-B1F9569FFDE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.UI", "EmployeeManagement.UI\EmployeeManagement.UI.csproj", "{B63FE9CD-14C5-4E9C-A976-B11B2BA3F11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.UI", "EmployeeManagement.UI\EmployeeManagement.UI.csproj", "{B63FE9CD-14C5-4E9C-A976-B11B2BA3F11A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Knowledgebase", "Knowledgebase", "{4CFB11B0-CD78-4147-BF33-1675A6A82B4B}"
 	ProjectSection(SolutionItems) = preProject
+		Diagram.png = Diagram.png
 		Knowledgebase.txt = Knowledgebase.txt
 	EndProjectSection
 EndProject

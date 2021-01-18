@@ -9,5 +9,7 @@ namespace EmployeeManagement.DAL.Contracts
     {
         bool SaveEmployee(Employee employee);
         List<Employee> GetAll();
+        Employee GetEmployeeById(int id);
+        List<Employee> SearchEmployees(Employee search);
     }
 }

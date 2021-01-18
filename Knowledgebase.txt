@@ -1,17 +1,23 @@
 While creating new project:
-01. Create DAL first
-02. Create BLL next
-03. Create required Models
+* 01. Create DAL first
+* 02. Create BLL next
+* 03. Create required Models
 04. Create UI Layer
-
-
-
-
-Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NLayerPracticeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
-
-
 
 Reference from DAL to BLL
 REference from BLL to UI
 
 Reference from DTOs to DAL, BLL, UI
+
+Agenda: SearchEmployee
+ - <- We can search employees by Id, or EName, DeptName
+
+
+Example:
+Assume that below record is existing in database:
+Id	: 1001
+EName	: Bob
+Salary	: 120000
+DName	: Research and Development
+
+

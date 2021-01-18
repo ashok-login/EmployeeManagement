@@ -1,0 +1,28 @@
+﻿@using EmployeeManagement.DTOs;
+@model IEnumerable<Employee>
+@{
+    ViewData["Title"] = "Our Employees";
+}
+
+<h1>@ViewData["Title"]</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Emp name</th>
+            <th>Salary</th>
+            <th>Dept#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.EName</td>
+                <td>@emp.Salary</td>
+                <td>@emp.DeptName</td>
+            </tr>
+        }
+    </tbody>
+</table>

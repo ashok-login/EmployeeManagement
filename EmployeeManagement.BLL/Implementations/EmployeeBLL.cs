@@ -22,9 +22,19 @@ namespace EmployeeManagement.BLL.Implementations
             return _dal.GetAll();
         }
 
+        public Employee GetEmployeeById(int id)
+        {
+            return _dal.GetEmployeeById(id);
+        }
+
         public bool SaveEmployee(Employee employee)
         {
             return _dal.SaveEmployee(employee);
+        }
+
+        public List<Employee> SearchEmployees(Employee search)
+        {
+            return _dal.SearchEmployees(search);
         }
     }
 }

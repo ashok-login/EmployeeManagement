@@ -34,5 +34,20 @@ namespace EmployeeManagement.DAL.Implementations
         {
             return _context.Employees.ToList();
         }
+
+        public Employee GetEmployeeById(int id)
+        {
+            return _context.Employees.Find(id);
+        }
+
+        public List<Employee> SearchEmployees(Employee search)
+        {
+            var searchResults = _context.Employees
+                                        .Where(x => x.Id == search.Id || search.Id == 0)
+                                        .Where(x => x.EName == search.EName || search.EName == null)
+                                        .Where(x => x.Salary >= search.Salary || search.Salary == 0)
+                                        .Where(x => x.DeptName.ToLower().Contains(search.DeptName.ToLower()) || search.DeptName == null);
+            return searchResults.ToList();
+        }
     }
 }
